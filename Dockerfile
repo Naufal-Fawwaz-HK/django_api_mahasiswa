@@ -1,5 +1,5 @@
 # Gunakan Python 3.12 image ringan
-FROM python:3.12-slim
+FROM python:3.11-slim
 
 # Install dependensi sistem (termasuk distutils dan psycopg2 dependencies)
 RUN apt-get update && apt-get install -y \
